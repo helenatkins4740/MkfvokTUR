@@ -2,7 +2,6 @@ import "engine_sim.mr"
 
 unit_names units()
 public node use_paper_theme {
-    input start_fullscreen: false;
     input speed_units: units.mph;
     input pressure_units: units.inHg;
     input torque_units: units.lb_ft;
@@ -21,7 +20,6 @@ public node use_paper_theme {
         color_foreground: color,
         color_highlight1: color,
         color_highlight2: color,
-        color_shadow: 0xf8f2f0,
         color_pink: color,
         color_red: color,
         color_orange: color,
